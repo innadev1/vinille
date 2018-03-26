@@ -35,6 +35,9 @@ body{
     width: 10.5vw;
     height: 10vw;
     margin: 1vw;
+	cursor: pointer;
+	background-size: cover;
+    background-repeat: no-repeat;
 	
 	-webkit-transition: -moz-transform .3s ease-out; 
    -moz-transition: -webkit-transform .3s ease-out; 
@@ -71,13 +74,75 @@ body{
     font-weight: 400;
 	line-height: 1
 }
-.pe{
-	background-size: cover;
-    background-repeat: no-repeat;
-	background-image: url(../img/Layer-17.jpg);
+
+.active.di{
+	background-image: url(../img/di.jpg);
 }
-.pe h2{
+.active.di h2{
+	color: #ff007e;
+}
+.active.di p{
+	display: none
+}
+
+.active.de{
+	background-image: url(../img/de.jpg);
+}
+.active.de h2{
+	color: #f000ff;
+}
+.active.de p{
+	display: none
+}
+
+.active.pe{
+	background-image: url(../img/pe.jpg);
+}
+.active.pe h2{
 	color: #24e8e6;
+}
+.active.pe p{
+	display: none
+}
+
+.active.an{
+	background-image: url(../img/an.jpg);
+}
+.active.an h2{
+	color: #e62f7d;
+}
+.active.an p{
+	display: none
+}
+
+.active.li{
+	background-image: url(../img/li.jpg);
+}
+.active.li h2{
+	color: #ff007e;
+}
+.active.li p{
+	display: none
+}
+
+.active.as{
+	background-image: url(../img/de.jpg);
+}
+.active.as h2{
+	color: #ff007e;
+}
+.active.as p{
+	display: none
+}
+
+.active.mo{
+	background-image: url(../img/mo.jpg);
+}
+.active.mo h2{
+	color: #ff007e;
+}
+.active.mo p{
+	display: none
 }
 /***/
 #performance{
@@ -86,16 +151,19 @@ body{
 	margin-top: 2vw;
 	margin-bottom: 15vw;
 }
-#performance div{
+.performance div{
 	padding: 1vw;
 }
-#performance h3{
+.performance h3{
 	margin: 0;
     font-size: 2.5vw;
 }
-#performance p{
+.performance p{
 	margin: 0;
     font-size: 1vw;
+}
+.p0, .p2, .p3, .p4, .p5, .p6, .p7{
+	display: none;
 }
 /*BLOCKS*/
 .side-blocks{
@@ -151,6 +219,11 @@ body{
     width: 38vw;
     height: 32vw;
     box-shadow: 0 0 40px rgba(0,0,0,0.3);
+	
+	-webkit-transition: -moz-transform .5s ease-out; 
+   -moz-transition: -webkit-transform .5s ease-out; 
+   -o-transition: -o-transform .5s ease-out; 
+    transition: transform .5s ease-out;
 }
 .pic-1{background-image: url(../img/1.jpg);}
 .pic-2{background-image: url(../img/2.jpg);}
@@ -159,10 +232,17 @@ body{
 .pic-5{background-image: url(../img/5.jpg);}
 
 .side-blocks:hover .text{
-	-moz-transform: scale(1.4);
-    -webkit-transform: scale(1.4);
-    -o-transform: scale(1.4);
-    transform: scale(1.4);
+	-moz-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+    
+}
+.side-blocks:hover .pic{
+	-moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
     
 }
 

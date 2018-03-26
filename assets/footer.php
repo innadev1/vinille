@@ -3,7 +3,7 @@
 <footer>
 
 	<div class="logo">
-		<img src="img/logo-white.png">
+		<img src="img/vinille-buro-blue.png">
 	</div>
 
 	<div id="contacts" class="flex">
@@ -30,8 +30,8 @@
 			<h2>Latest</h2>
 			
 			<div class="flex socials">
-				<div><img src="img/fb.png"></div>
-				<div><img src="img/im.png"></div>
+				<div><a><img src="img/fb-1.png"></a></div>
+				<div><a><img src="img/im-1.png"></a></div>
 			</div>
 			
 		</div>
